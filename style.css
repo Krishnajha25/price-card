@@ -123,35 +123,3 @@ body{
 .btn:hover{
     background: #6beb78;
 }
-
-/* .btn-wrapper:hover .btn{
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    -webkit-animation: linear infinite alternate;
-    -webkit-animation-name: relay;
-    -webkit-animation-duration: 5s;
-} */
-
-.btn:hover{
-    /* animation: relay 5s 1; */
-
-    /* animation-direction: alternate; */
-}
-
-/* @keyframes relay{
-    0%{
-        background: #fff;
-        left: 0;
-    }
-    50%{
-        background: #e20f0f;
-        left: 100%;
-    }
-    100%{
-        background: #fff;
-        left: 0;
-    }
-
-} */
