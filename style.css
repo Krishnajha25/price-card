@@ -108,5 +108,42 @@ body{
     font-weight: 700;
     font-size: 1.3rem;
     outline: none;
+    transition: .2s ease;
+    
 }
 
+.btn:hover{
+    background: #a8204e;
+}
+
+/* .btn-wrapper:hover .btn{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    -webkit-animation: linear infinite alternate;
+    -webkit-animation-name: relay;
+    -webkit-animation-duration: 5s;
+} */
+
+.btn:hover{
+    /* animation: relay 5s 1; */
+
+    /* animation-direction: alternate; */
+}
+
+/* @keyframes relay{
+    0%{
+        background: #fff;
+        left: 0;
+    }
+    50%{
+        background: #e20f0f;
+        left: 100%;
+    }
+    100%{
+        background: #fff;
+        left: 0;
+    }
+
+} */
